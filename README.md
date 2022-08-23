@@ -2,6 +2,7 @@
 
 ##ecmoveについて
 eccubeのローカル環境を本番環境に移したり、その反対もできるツール ・docker image
+
 シェルスクリプトでプログラムを作成
 
 ## 前提条件
@@ -11,13 +12,13 @@ eccubeのローカル環境を本番環境に移したり、その反対もで�
 - mysqlを使うこと
 
 ## おすすめファイル構成
-.
-├── Dockerfile
-├── docker-compose.yml
-├── dockerbuild
-├── eccube  　　（ec-cubeのappとかを入れたフォルダ）
-└── ecmove
-       └── root
-           ├── backup
-           └── ecmove
-                └── ecmove.sh
+.  
+├── Dockerfile  
+├── docker-compose.yml  
+├── dockerbuild  
+├── eccube  　　（ec-cubeのappとかを入れたフォルダ）  
+└── ecmove  
+       └── root  
+           ├── backup  
+           └── ecmove  
+                └── ecmove.sh  
