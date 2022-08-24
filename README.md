@@ -94,10 +94,10 @@ ecmove $1 $2 $3
 ```
 $1：「push」or「pull」
 
-$2：docker-compose.ymlで渡した環境引数の変数の最初の文字
-例：「STAGING」「PRODUCTION」
-
-$3：「t」or「d」or「td」
-t：テーマとプラグインを移動対象とする
-（app html vendorフォルダ composer.json composer.lock）
+$2：docker-compose.ymlで渡した環境引数の変数の最初の文字  
+例：「STAGING」「PRODUCTION」  
+  
+$3：「t」or「d」or「td」  
+t：テーマとプラグインを移動対象とする  
+（app html vendorフォルダ composer.json composer.lock）  
 d：データベースを移動対象とする
